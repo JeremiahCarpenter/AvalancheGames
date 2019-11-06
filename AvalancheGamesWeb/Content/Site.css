@@ -1,0 +1,75 @@
+﻿/*.AvalancheGameIMG {
+    background-image: url(Images/AvalancheGames.PNG);
+    background-color: #292828;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}*/
+
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #8BD0EE;
+    background-color: #292828;
+}
+
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.footer{
+    padding-top: initial;
+}
+.container {
+    color: #FFFFFF;
+    font-weight: bolder
+}
+.reroute{
+    color: #FFFFFF;
+}
+.pageheaders{
+    padding-top:10px;
+    color: #FFFFFF;
+}
+.BluetextColor {
+    color: #8BD0EE
+}
+.classstring {
+    background-color: #8BD0EE;
+}
+.stats {
+    color: #8BD0EE !important;
+    font-weight: bold;
+}
+.navbar-custom {
+    color: #292828 !important;
+    background-color: #8BD0EE;
+    font-size: 18px;
+}
+
+.MakeCenter{
+    margin: 8%;
+    padding: 2%;
+}
+
