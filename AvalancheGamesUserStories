@@ -1,0 +1,126 @@
+UserStories for AvalancheGames Capstone Project
+1) Site will include
+	-Login
+	-Logout
+	-Sign Up Page
+	-Home
+	-Indiviual Game Pages
+	-Comments on Game Pages
+	-Profile Page
+	-HighScore Page
+	-Redirecting to Home Page
+
+2)Casual Site visitor
+	-is able to view Home Page
+		-Casual Site Visitor's NavBar consist of 
+			-Home button link
+			-Login Button link
+			-Sign Up button link
+		-Is able to see Games listed on Game Page
+			-if Site Visitor tries to play game will be propmted to log in or create new accout
+		-If Site Visitor tries to login without having account
+			-will be shown message that login credientials were incorrect
+			promoted to try again or create new account if new User
+	-is able to create an account in Sign Up Page
+		-Sign Up Page required information
+			-First Name
+			-Last Name
+			-Email
+			-User Name
+			-PassWord
+			-Phone Number
+			-BirthDate	
+			-Submit button
+3)Normal User
+	-is able to view Home Page
+		-Unverified User's NavBar consist of 
+			-Home button link
+			-Login Button link
+			-Sign Up button link
+		-Is able to play Games shown on Game Page
+		-If Unverified User tries to login without having account
+			-will be shown message that login credientials were incorrect
+			promoted to try again or create new account if new User
+	-is able to view individual Game Page
+		-is able to play game on game page
+		-will be able to see comments under games
+		-will be shown a message in comment section
+			-"Must be a power user to add comment!"
+			
+			
+4)Power User
+		-Is able to Login
+			-Login will require
+					-Email
+					-Password
+				-If credientials are incorrect will be shown message that login credientials were incorrect
+				promoted to try again or create new account if new User 
+			-If login is sucessful will be redirected to Home Page
+		-Is able to view Home Page
+			-Verified User's NavBar consist of	
+				-Home Button Link
+				-HighScore Button Link
+				-Profile Button Link
+				-Logout Button Link
+		-Is able to view individual Game Page
+			-is able to play game on game page
+			-will be able to see comments under game
+			-will be able to leave comments under game
+			-is able to delete their comment
+			-will be able to like game
+			-is able to unlike a game previously liked
+		-Is able to view HighScore Page
+		-Is able to see profile page
+			-Can see what games Verified User has liked
+			-Can see highest Scores for games Verified User has played
+			-Can see SiteUserLevel called Level
+				-Site User Level is calculated by taking average of the each game played 
+				divided by time played then averaged with other games average/times 
+				then divided by 100 
+				compares score to range of numbers
+				then give number level based on where score falls in range
+		-is able to log out
+			-redirected to home page
+
+5)Admin User
+	-Is able to Login
+			-Login will require
+					-Email
+					-Password
+				-If credientials are incorrect will be shown message that login credientials were incorrect
+				promoted to try again or create new account if new User 
+			-If login is sucessful will be redirected to Home Page
+		-Is able to view Home Page
+			-Verified User's NavBar consist of	
+				-Home Button Link
+				-HighScore Button Link
+				-Profile Button Link
+				-View Users
+				-Logout Button Link
+		-Is able to view individual Game Page
+			-is able to play game on game page
+			-will be able to see comments under game
+			-will be able to leave comments under game
+			-is able to delete their comment
+			-is able to delete Verified Users comments
+			-will be able to like game
+			-is able to unlike a game previously liked
+		-Is able to view HighScore Page
+		-Is able to see profile page
+			-Can see what games Verified User has liked
+			-Can see highest Scores for games Verified User has played
+			-Can see SiteUserLevel called Level
+				-Site User Level is calculated by taking average of the each game played 
+				divided by time played then averaged with other games average/times 
+				then divided by 100 
+				compares score to range of numbers
+				then give number level based on where score falls in range
+		-Is able to View Users
+			-is able to view users
+				-can see their infor and role lever and site level
+			-Is able to edit users info
+				-is able to force reset password if needed
+			-Is able to Delete Users
+		-is able to log out
+			-redirected to home page
+	

@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalancheGames", "AvalancheGames\AvalancheGames.csproj", "{9587DE75-50FD-4547-8CAC-032D4C9445CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{52263120-D748-41C4-A4CC-24569291D344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{387DA9A3-1646-455F-AA3E-D362372112C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{15FAAA4C-7D0C-4F1A-AB59-669702E7E4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalancheGamesWeb", "AvalancheGamesWeb\AvalancheGamesWeb.csproj", "{4710222D-B7EC-4E49-BC80-073A2CA47746}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2441696F-ECA6-4464-A418-DA2C84FAFE18}"
+	ProjectSection(SolutionItems) = preProject
+		AvalancheGames.sql = AvalancheGames.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayerTests1", "BusinessLogicLayerTests1\BusinessLogicLayerTests1.csproj", "{3FD0ACA0-BA63-461F-B86A-F322FF58BA8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9587DE75-50FD-4547-8CAC-032D4C9445CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9587DE75-50FD-4547-8CAC-032D4C9445CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9587DE75-50FD-4547-8CAC-032D4C9445CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9587DE75-50FD-4547-8CAC-032D4C9445CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52263120-D748-41C4-A4CC-24569291D344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52263120-D748-41C4-A4CC-24569291D344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52263120-D748-41C4-A4CC-24569291D344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52263120-D748-41C4-A4CC-24569291D344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387DA9A3-1646-455F-AA3E-D362372112C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387DA9A3-1646-455F-AA3E-D362372112C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387DA9A3-1646-455F-AA3E-D362372112C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387DA9A3-1646-455F-AA3E-D362372112C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FAAA4C-7D0C-4F1A-AB59-669702E7E4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FAAA4C-7D0C-4F1A-AB59-669702E7E4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FAAA4C-7D0C-4F1A-AB59-669702E7E4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FAAA4C-7D0C-4F1A-AB59-669702E7E4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4710222D-B7EC-4E49-BC80-073A2CA47746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4710222D-B7EC-4E49-BC80-073A2CA47746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4710222D-B7EC-4E49-BC80-073A2CA47746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4710222D-B7EC-4E49-BC80-073A2CA47746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD0ACA0-BA63-461F-B86A-F322FF58BA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD0ACA0-BA63-461F-B86A-F322FF58BA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD0ACA0-BA63-461F-B86A-F322FF58BA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD0ACA0-BA63-461F-B86A-F322FF58BA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A23A8C66-9F1A-469C-BE72-30114048E025}
+	EndGlobalSection
+EndGlobal
